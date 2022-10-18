@@ -13,8 +13,9 @@ load_dotenv()
 if __name__ == "__main__":
 
     STRIPE_API_KEY = os.getenv('STRIPE_API_KEY', None)
+    OUTPUT_FILE    = 'products.json'
 
     if STRIPE_API_KEY:
-        get_products( STRIPE_API_KEY )
+        get_products( STRIPE_API_KEY, OUTPUT_FILE )
     else:
         print( 'Err: STRIPE_API_KEY not provided in ENV' )

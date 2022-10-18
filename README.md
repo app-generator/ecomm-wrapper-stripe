@@ -1,10 +1,38 @@
 # Simple Python Wrapper for Stripe
 
-This minimal library pulls the products from Stripe in [JSON format](./products.json) using `STRIPE_API_KEY` as input, loaded from environment.   
+This minimal library pulls the products from Stripe in [JSON format](https://github.com/app-generator/ecomm-wrapper-stripe/blob/main/products.json) using `STRIPE_API_KEY` as input, loaded from environment.   
 
 <br />
 
 ## Quick Start
+
+<br />
+
+> **Install the package** via `PIP` 
+
+```bash
+$ pip install python-stripe
+```
+
+<br />
+
+> **Usage in code**
+
+```python
+
+from stripe_python import get_products
+
+STRIPE_KEY  = 'YOUR_key_here' # mandatory parameter  
+OUTPUT_FILE = 'products.json' # optional   
+
+get_products( STRIPE_KEY, OUTPUT_FILE ) 
+```
+
+All products associated with the account are pulled in `products.json`.
+
+<br />
+
+## Standalone Execution
 
 <br />
 
@@ -52,4 +80,4 @@ The products are saved in `products.json`. Available props:
 <br />
 
 ---
-**Python Warpper for Stripe** - Free library provided by [AppSeed](https://appseed.us).
+**Simple Python Wrapper for Stripe** - Free library provided by [AppSeed](https://appseed.us).
