@@ -52,7 +52,9 @@ All products associated with the account are pulled in `products.json`. Here is 
 }
 ```
 
-> Image pulled from Stripe
+<br />
+
+> `Product Image` pulled from **Stripe**
 
 ![Django Datta Able PRO - Stripe Image](https://files.stripe.com/links/MDB8YWNjdF8xSGxXdEdHTExkMVgwN1ZVfGZsX3Rlc3RfZjNtOGxwZTRFdGp1MGp1N2ZUeFlENU9Q008T4Zyl6Z)
 
