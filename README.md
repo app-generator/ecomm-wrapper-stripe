@@ -1,4 +1,4 @@
-# [Python Library for Stripe API](https://github.com/app-generator/ecomm-wrapper-stripe)
+# [Python Library for Stripe API](https://github.com/app-generator/python-stripe-wrapper)
 
 Simple **Python** library that pulls the products from **Stripe** dashboard in `JSON format` using only **STRIPE_API_KEY** as input. 
 
@@ -73,7 +73,7 @@ All products associated with the account are pulled in `products.json`. Here is 
 
 <br />
 
-> **Step 1** - Clone the sources from [public repository](https://github.com/app-generator/ecomm-wrapper-stripe)
+> **Step 1** - Clone the sources from [public repository](https://github.com/app-generator/python-stripe-wrapper)
 
 ```bash
 $ git clone https://github.com/app-generator/python-stripe-wrapper.git
@@ -126,4 +126,4 @@ The products are saved in `products.json` (current working directory). Available
 <br />
 
 ---
-[Python Library for Stripe API](https://github.com/app-generator/ecomm-wrapper-stripe) - Free library provided by [AppSeed](https://appseed.us).
+[Python Library for Stripe API](https://github.com/app-generator/python-stripe-wrapper) - Free library provided by [AppSeed](https://appseed.us).
