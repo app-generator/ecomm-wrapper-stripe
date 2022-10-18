@@ -18,7 +18,11 @@ pip install python-dotenv
 ```
 
 create .env file and add STRIPE_API_KEY variable init.
+
+.env
+```
 STRIPE_API_KEY=stripeapikey
+```
 
 run script testproduct.py
  ```
