@@ -6,7 +6,7 @@
 - DOCS update
 - Code changes (minor)
 
-## [0.0.2] 2022-10-18
+## [0.0.1] 2022-10-18
 ### Initial Version
 
 - The start of the project is tracked
