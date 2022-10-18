@@ -1,8 +1,13 @@
 # Simple Python Wrapper for Stripe
 
-This minimal library pulls the products from Stripe in [JSON format](https://github.com/app-generator/ecomm-wrapper-stripe/blob/main/products.json) using minimal input. 
+Simple **Python** library that pulls the products from **Stripe** dashboard in `JSON format` using only **STRIPE_API_KEY** as input - actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`. Available items:
 
-> Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
+- `Product` Meta Information:
+  - ID, name, description
+- All Images
+- All Prices 
+- The default pricing 
+  - separate node for quick access
 
 <br />
 
