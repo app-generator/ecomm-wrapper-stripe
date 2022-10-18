@@ -28,7 +28,29 @@ OUTPUT_FILE = 'products.json' # optional
 get_products( STRIPE_KEY, OUTPUT_FILE ) 
 ```
 
-All products associated with the account are pulled in `products.json`.
+All products associated with the account are pulled in `products.json`. Here is a sample output using an account with one product (multiple prices): 
+
+```json
+{
+    "data": [
+        {
+            "id": "prod_L3QBiEdGWquAHl",
+            "name": "Django Datta Able PRO",
+            "description": "Premium Django Seed project",
+            "images": [
+                "https://files.stripe.com/links/MDB8YWNjdF8xSGxXdEdHTExkMVgwN1ZVfGZsX3Rlc3RfZjNtOGxwZTRFdGp1MGp1N2ZUeFlENU9Q008T4Zyl6Z"
+            ],
+            "price_dfault": {
+                "price_1KNJKmGLLd1X07VUqu1kDHO2": 99.0
+            },
+            "prices": {
+                "price_1LuEz0GLLd1X07VUpsvuNCT8": 119.0,
+                "price_1KNJKmGLLd1X07VUqu1kDHO2": 99.0
+            }
+        }
+    ]
+}
+```
 
 <br />
 
@@ -68,7 +90,7 @@ The products are saved in `products.json` (current working directory). Available
 - `name`
 - `description`
 - `images`
-- `price`
+- `price` (all)
 
 <br />
 
