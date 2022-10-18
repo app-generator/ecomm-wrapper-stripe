@@ -2,12 +2,18 @@
     "data": [
         {
             "id": "prod_L3QBiEdGWquAHl",
-            "Name": "Django Datta Able PRO",
-            "Description": "Premium Django Seed project",
-            "Images": [
+            "name": "Django Datta Able PRO",
+            "description": "Premium Django Seed project",
+            "images": [
                 "https://files.stripe.com/links/MDB8YWNjdF8xSGxXdEdHTExkMVgwN1ZVfGZsX3Rlc3RfZjNtOGxwZTRFdGp1MGp1N2ZUeFlENU9Q008T4Zyl6Z"
             ],
-            "Price": 99.0
+            "price_dfault": {
+                "price_1KNJKmGLLd1X07VUqu1kDHO2": 99.0
+            },
+            "prices": {
+                "price_1LuEz0GLLd1X07VUpsvuNCT8": 119.0,
+                "price_1KNJKmGLLd1X07VUqu1kDHO2": 99.0
+            }
         }
     ]
 }
