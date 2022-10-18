@@ -18,7 +18,14 @@ def get_products( stripeApiKEY, outputFile='products.json'):
         dict['Name'        ] = product['name']
         dict['Description' ] = product['description']
         dict['Images'      ] = product['images']
-        dict['Price'       ] = product["default_price"]["unit_amount"]/100
+        dict['Default Price'       ] = product["default_price"]["unit_amount"]/100
+        all_prices = stripe.Price.list(product=product["id"]).data
+        pricedict = {}
+
+        for price in all_prices:
+            pricedict[price["id"]] = price["unit_amount"] / 100
+
+        dict['Prices'] = pricedict
         productdict.append(dict)
 
     with open(outputFile, "w") as outfile:
