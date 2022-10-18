@@ -37,7 +37,7 @@ classifiers=[
     'Programming Language :: Python :: 3.6',
     'Environment :: Web Environment',
     'Topic :: Software Development',
-    'Topic :: Software Development :: Payments',
-    'Topic :: Software Development :: Stripe',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
     ],
 )
