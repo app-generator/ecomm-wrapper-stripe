@@ -1,4 +1,4 @@
-# Minimal Python Warpper for Stripe
+# Simple Python Wrapper for Stripe
 
 This minimal library pulls the products from Stripe in `JSON` format. 
 
