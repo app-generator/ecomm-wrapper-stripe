@@ -1,6 +1,6 @@
 # Simple Python Wrapper for Stripe
 
-This minimal library pulls the products from Stripe in `JSON` format. 
+This minimal library pulls the products from Stripe in [JSON format](./products.json) using `STRIPE_API_KEY` as input, loaded from environment.   
 
 <br />
 
