@@ -1,12 +1,14 @@
 # Simple Python Wrapper for Stripe
 
-Simple **Python** library that pulls the products from **Stripe** dashboard in `JSON format` using only **STRIPE_API_KEY** as input - actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`. Available items:
+Simple **Python** library that pulls the products from **Stripe** dashboard in `JSON format` using only **STRIPE_API_KEY** as input. 
+
+> Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`. Available items:
 
 - `Product` Meta Information:
   - ID, name, description
-- All Images
-- All Prices 
-- The default pricing 
+- `All Images`
+- `All Prices` 
+- The `default price` 
   - separate node for quick access
 
 <br />
@@ -71,7 +73,16 @@ All products associated with the account are pulled in `products.json`. Here is 
 
 <br />
 
-> **Step 1** - Create `.env` using provided `env.sample`
+> **Step 1** - Clone the sources from [public repository](https://github.com/app-generator/ecomm-wrapper-stripe)
+
+```bash
+$ git clone https://github.com/app-generator/ecomm-wrapper-stripe.git
+$ cd ecomm-wrapper-stripe
+```
+
+<br />
+
+> **Step 2** - Create `.env` using provided `env.sample`
 
  Add `.env` file in your projects root directory and add the following credentials
 
