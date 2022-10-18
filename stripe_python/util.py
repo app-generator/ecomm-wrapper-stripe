@@ -18,7 +18,7 @@ def get_products( stripeApiKEY, outputFile='products.json'):
         dict['Name'        ] = product['name']
         dict['Description' ] = product['description']
         dict['Images'      ] = product['images']
-        dict['Default Price'       ] = product["default_price"]["unit_amount"]/100
+        dict['Price_Default'       ] = { product["default_price"]["id"]: product["default_price"]["unit_amount"]/100}
         all_prices = stripe.Price.list(product=product["id"]).data
         pricedict = {}
 
