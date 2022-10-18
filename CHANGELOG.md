@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.0.5] 2022-10-18
+### Improvements
+
+- Rename Public Repo 
+
 ## [0.0.4] 2022-10-18
 ### Improvements
 

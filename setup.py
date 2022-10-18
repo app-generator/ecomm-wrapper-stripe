@@ -8,14 +8,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 name='python-stripe',
-version='0.0.4',
+version='0.0.5',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,
 description='Simple Wrapper for Stripe API, written in Python',
 long_description=README,
 long_description_content_type="text/markdown",
-url='https://github.com/app-generator/ecomm-wrapper-stripe',
+url='https://github.com/app-generator/python-stripe-wrapper',
 author='AppSeed.us',
 author_email='support@appseed.us',
 license='MIT License',
