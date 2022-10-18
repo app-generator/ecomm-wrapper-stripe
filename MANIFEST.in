@@ -1,4 +1,4 @@
 include LICENSE.md
 include README.md
-recursive-include py_stripe *
+recursive-include stripe_python *
 recursive-include docs *

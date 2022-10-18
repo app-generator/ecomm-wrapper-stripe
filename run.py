@@ -6,7 +6,7 @@ Copyright (c) 2019 - present AppSeed.us
 import os
 from dotenv import load_dotenv
 
-from py_stripe import get_products
+from stripe_python import get_products
 
 load_dotenv()
 
