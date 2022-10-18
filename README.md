@@ -1,30 +1,45 @@
-# ecomm-wrapper-stripe
+# Minimal Pythin warpper for Stripe
 
-## Install package and run project
+This minimal library pulls the products from Stripe in `JSON` format. 
 
-Create virtual envirnoment
-```
-virtualenv --python=python3 venv
-```
-activate virtual envirnoment
-```
-source venv/bin/activate (linux/mac)
-```
+<br />
 
-install stripe-wraper and other required packages
-```
-pip install getstripeproducts-0.0.1-py3-none-any.whl
-pip install python-dotenv
-```
+## ✨ Quick Start
 
-create .env file and add STRIPE_API_KEY variable init.
+<br />
 
-.env
+> 👉 **Step 1** - Create `.env` using provided `env.sample`
+
+ Add `.env` file in your projects root directory and add the following credentials
+
 ```
-STRIPE_API_KEY=stripeapikey
+STRIPE_API_KEY=<REAL_VALUE_HERE>
 ```
 
-run script testproduct.py
- ```
-python testproduct.py
+<br />
+
+> 👉 **Step 1** - Install `dependencies`
+
+```bash
+$ python -m venv env
+$ source env/bin/activate
+$ pip install -r requirements.txt
 ```
+
+<br /> 
+
+> 👉 Pull the products from Stripe dashboard
+
+```bash
+$ python run.py
+```
+
+The products are saved in `products.json`. Available props: 
+
+- `id`
+- `name`
+- `description`
+- `images`
+- `price`
+
+<br />
