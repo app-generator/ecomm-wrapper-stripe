@@ -1,5 +1,13 @@
 # Change Log
 
+## [0.0.3] 2022-10-18
+### Improvements
+
+- DOCS update
+- Prettify the JSON
+- Pull all prices
+- Highlight the default price
+
 ## [0.0.2] 2022-10-18
 ### Improvements
 
