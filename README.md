@@ -46,7 +46,7 @@ STRIPE_API_KEY=<REAL_VALUE_HERE>
 
 <br />
 
-> **Step 1** - Install `dependencies`
+> **Step 2** - Install `dependencies`
 
 ```bash
 $ python -m venv env
@@ -56,13 +56,13 @@ $ pip install -r requirements.txt
 
 <br /> 
 
-> Pull the products from Stripe dashboard
+> **Step 3** - Pull the products from Stripe dashboard
 
 ```bash
 $ python run.py
 ```
 
-The products are saved in `products.json`. Available props: 
+The products are saved in `products.json` (current working directory). Available props: 
 
 - `id`
 - `name`
