@@ -6,6 +6,16 @@ __pycache__/
 *.pytest_cache
 .coverage
 
+# build & tmp files
+*.pyc
+*.DS_Store
+*.egg*
+/dist/
+/.idea
+/docs/_build/
+/node_modules/
+build/
+
 # database & logs
 *.db
 *.sqlite3
