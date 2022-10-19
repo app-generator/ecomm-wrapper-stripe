@@ -120,8 +120,9 @@ The products are saved in `products.json` (current working directory). Available
 
 ## Credits & Links
 
+- [Django & Stripe Mini eCommerce](https://github.com/app-generator/sample-django-stripe) - free project that use the library
+- [Flask & Stripe Mini eCommerce](https://github.com/app-generator/sample-flask-stripe) - free project that use the library 
 - Free [support](https://appseed.us/support) via Email & Discord 
-- [Stripe Dev Tools](https://stripe.com/docs/development) - official docs
 
 <br />
 
